@@ -1,0 +1,100 @@
+#signIn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: url(./img/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#signIn .wrapper .div-left {
+  width: 50%;
+}
+#signIn .wrapper .div-left .title {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+#signIn .wrapper .div-left .tagInput .input-group {
+  height: 50px;
+  outline: none;
+}
+#signIn .wrapper .div-left .tagInput .input-group .form-control {
+  border-right: none;
+  height: 100%;
+}
+#signIn .wrapper .div-left .tagInput .input-group .form-control:focus {
+  outline: none;
+}
+#signIn
+  .wrapper
+  .div-left
+  .tagInput
+  .input-group
+  .input-group-append
+  .input-group-text {
+  background-color: white;
+  border-left: none !important;
+}
+#signIn
+  .wrapper
+  .div-left
+  .tagInput
+  .input-group
+  .input-group-append
+  .input-group-text
+  img {
+  width: 18px;
+}
+#signIn .wrapper .div-left .tagInput .btn-primary {
+  background-color: #fac049;
+  color: #fff;
+  border: #fac049;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+#signIn .wrapper .div-left .text-center {
+  color: #a8a8a8;
+}
+#signIn .wrapper .div-left .text-center .link_signUp {
+  color: #ffab00;
+}
+#signIn .wrapper .div-left .d-flex {
+  color: #a8a8a8;
+}
+#signIn .wrapper .div-left .d-flex .line {
+  margin: 0px 5px;
+}
+#signIn .wrapper .div-left .btn-gg {
+  box-shadow: 0 1px 2px #00000059;
+  padding: 10px;
+  background: #fff;
+  border-radius: 6px;
+  text-align: center;
+}
+#signIn .wrapper .div-left .btn-gg img {
+  margin-right: 5px;
+}
+#signIn .wrapper .div-right img {
+  image-rendering: pixelated;
+}
+@media only screen and (max-width: 1203px) {
+  #signIn {
+    background-image: url(./img/bg-moblie.png);
+  }
+  #signIn .div-left {
+    width: 50% !important;
+  }
+  #signIn .div-right {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #signIn .div-left {
+    width: 70% !important;
+  }
+}

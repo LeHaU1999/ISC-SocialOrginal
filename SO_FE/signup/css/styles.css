@@ -1,0 +1,79 @@
+body{
+    background-image: url(../img/Web\ 1920\ –\ 2.png);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.register{
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    transform: translate(-50px, -50px);
+}
+.register_info button{
+    background-color: #FAC049;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.register_info button:hover{
+    background-color: #FFAD07;
+    color: white;
+    cursor: pointer;
+}
+.register_logo img{
+    width: 100%;
+}
+.checkbox{
+    font-size: 18px;
+}
+
+/*
+Responsive Register
+*/
+@media only screen and (max-width: 900px){
+    body{
+        background-image: url(../img/bg\ –\ 1.png);
+        background-size: cover;
+    }
+    .register_logo{
+        display: none;
+    }
+    .register_info{
+        margin-left: 140px;
+    }
+    .register_info form{
+        width: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 750px){
+    .register_info{
+        margin-left: 60px;
+    }
+}
+
+@media only screen  and (max-width: 370px) {
+    body{
+        background-image: url(../img/bg\ –\ 1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+   
+    }
+    .register_info{
+        margin-left: 20px;
+    }
+    .register_info form{
+        width: 150px;
+    }
+    .register_logo{
+        display: none;
+    }
+}
+
+/*
+Responsive Add User
+*/

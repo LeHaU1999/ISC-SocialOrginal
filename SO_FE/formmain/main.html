@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Social Original</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css" />
+
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand" href="#"><img src="./img/logo.svg" alt="logo" class="img-fluid" /></a>
+      <form class="form-inline">
+        <button class="btnSearch" type="submit">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22.87" height="22.87" viewBox="0 0 28.87 28.87">
+            <path id="ic_search_24px"
+              d="M21.034,18.87h-1.14l-.4-.39a9.392,9.392,0,1,0-1.01,1.01l.39.4v1.14l7.214,7.2,2.15-2.15Zm-8.656,0a6.492,6.492,0,1,1,6.492-6.492A6.484,6.484,0,0,1,12.378,18.87Z"
+              transform="translate(1.454 -3.432) rotate(9)" opacity="0.4" />
+          </svg>
+        </button>
+        <input class="textSearch mr-sm-2" type="text" placeholder="Search..." />
+      </form>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId"></div>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+              <path id="ic_public_24px"
+                d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2ZM11,19.93A7.988,7.988,0,0,1,4,12a8.118,8.118,0,0,1,.21-1.79L9,15v1a2.006,2.006,0,0,0,2,2Zm6.9-2.54A1.984,1.984,0,0,0,16,16H15V13a1,1,0,0,0-1-1H8V10h2a1,1,0,0,0,1-1V7h2a2.006,2.006,0,0,0,2-2V4.59a7.982,7.982,0,0,1,2.9,12.8Z"
+                transform="translate(-2 -2)" fill="#999" />
+            </svg>
+
+            <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21.707" viewBox="0 0 21 21.707">
+              <path id="ic_chat_bubble_24px"
+                d="M20,2H4A2.006,2.006,0,0,0,2,4V22l4-4H20a2.006,2.006,0,0,0,2-2V4A2.006,2.006,0,0,0,20,2Z"
+                transform="translate(-1.5 -1.5)" fill="#fff" stroke="#999" stroke-width="1" />
+            </svg>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Admin
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">My group</a>
+            <a class="dropdown-item" href="#">Setting</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../login/signIn.html" id="btn_logout">Log out</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section class="content row m-0">
+    <div class="slideNav col-2">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link">
+            <p class="m-0">Trang cá nhân</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Bản tin</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tin nhắn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Bạn bè</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Lưu trữ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Nhóm</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="carousel col-10">
+      <div class="carousel_title">
+        <img src="./img/imgPanel.svg" alt="" />
+      </div>
+
+      <div class="controlbar">
+        <div class="tabs">
+          <button class="tablinks" data-electronic="dongthoigian">
+            Dòng thời gian
+          </button>
+          <button class="tablinks active" data-electronic="thongtin">
+            Thông tin
+          </button>
+          <button class="tablinks" data-electronic="banbe">Bạn bè</button>
+          <button class="tablinks" data-electronic="hinhanh">Hình ảnh</button>
+        </div>
+
+        <!-- Tab content -->
+        <div class="wrapper_tabcontent">
+          <div id="dongthoigian" class="tabcontent">
+            <h3>Dòng thời gian</h3>
+          </div>
+
+          <div id="thongtin" class="tabcontent active">
+            <div class="tabcontent_infotitle" style="display: flex">
+              <h3 class="w-25">Thông tin</h3>
+              <div class="d-flex justify-content-end text-right w-75">
+                <button id="btnEditInfo" type="button" class="btn btn-outline-primary">
+                  Chỉnh sửa
+                </button>
+                <button id="btnCancelInfo" type="button" class="btn btn-outline-danger ml-2">
+                  Hủy
+                </button>
+              </div>
+            </div>
+
+            <div class="tabcontent_infodetail row m-0" id="info1">
+            </div>
+
+
+            <div class="tabcontent_infodetail row m-0" id="info2"></div>
+
+          </div>
+
+          <div id="banbe" class="tabcontent">
+            <h3>Bạn bè</h3>
+          </div>
+
+          <div id="hinhanh" class="tabcontent">
+            <h3>Hình ảnh</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="avatar">
+        <img src="./img/me2.svg" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script type="text/javascript" src="./JS/main.js"></script>
+</body>
+
+</html>

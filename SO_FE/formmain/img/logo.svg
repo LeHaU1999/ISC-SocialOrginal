@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="139" height="41" viewBox="0 0 139 41">
+  <g id="Group_1" data-name="Group 1" transform="translate(-35 -29)">
+    <path id="ic_whatshot_24px" d="M19.094.67A34.149,34.149,0,0,1,20.27,8.3c0,3.273-2.145,5.926-5.418,5.926A5.783,5.783,0,0,1,9.084,8.3l.048-.572A21.875,21.875,0,0,0,4,21.849a12.711,12.711,0,0,0,25.421,0A27.192,27.192,0,0,0,19.094.67ZM16.25,29.793A5.046,5.046,0,0,1,11.134,24.8c0-2.574,1.668-4.385,4.465-4.957,2.812-.572,5.72-1.922,7.34-4.1a22.169,22.169,0,0,1,.937,6.419,7.628,7.628,0,0,1-7.626,7.626Z" transform="translate(31 31.77)" fill="red"/>
+    <text id="Social" transform="translate(88 62)" fill="#434343" font-size="31" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Social</tspan></text>
+  </g>
+</svg>
